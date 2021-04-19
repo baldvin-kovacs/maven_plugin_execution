@@ -1,0 +1,12 @@
+diff -ur testartifactid/pom.xml testartifactid.new/pom.xml
+--- testartifactid/pom.xml	2021-04-19 20:43:53.511662719 +0200
++++ testartifactid.new/pom.xml	2021-04-19 20:44:25.227443736 +0200
+@@ -75,7 +75,7 @@
+           <version>3.2.0</version>
+           <executions>
+             <execution>
+-              <id>add-source</id>
++              <id>default-cli</id>
+               <phase>generate-sources</phase>
+               <goals>
+                 <goal>add-source</goal>

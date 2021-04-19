@@ -1,0 +1,34 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> maven-archetype-plugin:3.2.0:generate (default-cli) > generate-sources @ standalone-pom >>>
+[INFO] 
+[INFO] <<< maven-archetype-plugin:3.2.0:generate (default-cli) < generate-sources @ standalone-pom <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-archetype-plugin:3.2.0:generate (default-cli) @ standalone-pom ---
+[INFO] Generating project in Batch mode
+[INFO] Archetype repository not defined. Using the one from [org.apache.maven.archetypes:maven-archetype-quickstart:1.4] found in catalog remote
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-quickstart:1.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: testgroupid
+[INFO] Parameter: artifactId, Value: testartifactid
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] Parameter: package, Value: testpackage
+[INFO] Parameter: packageInPathFormat, Value: testpackage
+[INFO] Parameter: package, Value: testpackage
+[INFO] Parameter: groupId, Value: testgroupid
+[INFO] Parameter: artifactId, Value: testartifactid
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] Project created from Archetype in dir: /home/baldvin/maven_plugin_execution/01-following-the-doc/testartifactid
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.537 s
+[INFO] Finished at: 2021-04-19T22:16:30+02:00
+[INFO] ------------------------------------------------------------------------
+[0m[0m
