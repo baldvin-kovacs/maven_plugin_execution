@@ -54,8 +54,8 @@ subdirectory.
 While according to the cookbook, the compile should just work,
 not only it does not, but we cannot even run the plugin manually:
 
-- mvn compile: **FAIL**
-- mvn build-helper:add-source compile: **FAIL**
+- mvn -B compile: **FAIL**
+- mvn -B build-helper:add-source compile: **FAIL**
 
 -----------------------------
 - DIR: ./02-with-execution-id-as-default-cli
@@ -64,5 +64,5 @@ This testcase is the same as the one above, except it changes the
 execution id to default-cli. The compile target still does not work,
 but now at least we can manually trigger the plugin to work:
 
-- mvn compile: **FAIL**
-- mvn build-helper:add-source compile: **SUCCESS**
+- mvn -B compile: **FAIL**
+- mvn -B build-helper:add-source compile: **SUCCESS**

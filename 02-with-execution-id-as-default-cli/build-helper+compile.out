@@ -1,22 +1,22 @@
-[[1;34mINFO[m] Scanning for projects...
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m---------------------< [0;36mtestgroupid:testartifactid[0;1m >---------------------[m
-[[1;34mINFO[m] [1mBuilding testartifactid 1.0-SNAPSHOT[m
-[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.2.0:add-source[m [1m(default-cli)[m @ [36mtestartifactid[0;1m ---[m
-[[1;34mINFO[m] Source directory: /home/baldvin/maven_plugin_execution/02-with-execution-id-as-default-cli/testartifactid/target/something added.
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mtestartifactid[0;1m ---[m
-[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
-[[1;34mINFO[m] skip non existing resourceDirectory /home/baldvin/maven_plugin_execution/02-with-execution-id-as-default-cli/testartifactid/src/main/resources
-[[1;34mINFO[m] 
-[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mtestartifactid[0;1m ---[m
-[[1;34mINFO[m] Changes detected - recompiling the module!
-[[1;34mINFO[m] Compiling 2 source files to /home/baldvin/maven_plugin_execution/02-with-execution-id-as-default-cli/testartifactid/target/classes
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
-[[1;34mINFO[m] Total time:  0.763 s
-[[1;34mINFO[m] Finished at: 2021-04-19T22:16:38+02:00
-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< testgroupid:testartifactid >---------------------
+[INFO] Building testartifactid 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.2.0:add-source (default-cli) @ testartifactid ---
+[INFO] Source directory: /home/baldvin/maven_plugin_execution/02-with-execution-id-as-default-cli/testartifactid/target/something added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ testartifactid ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/baldvin/maven_plugin_execution/02-with-execution-id-as-default-cli/testartifactid/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ testartifactid ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/baldvin/maven_plugin_execution/02-with-execution-id-as-default-cli/testartifactid/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.747 s
+[INFO] Finished at: 2021-04-19T22:20:00+02:00
+[INFO] ------------------------------------------------------------------------

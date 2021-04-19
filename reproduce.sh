@@ -14,7 +14,7 @@ java -version 2>&1
 echo '```'
 echo '- Maven:'
 echo '```'
-mvn -v
+mvn -B -v
 echo '```'
 
 function generate_quickstart {
@@ -33,10 +33,10 @@ function generate_quickstart {
 }
 
 function run_tests {
-	C="mvn compile"
+	C="mvn -B compile"
 	(cd testartifactid; $C) 2> compile.err > compile.out && echo "- $C: **SUCCESS**" || echo "- $C: **FAIL**"
 
-	C="mvn build-helper:add-source compile"
+	C="mvn -B build-helper:add-source compile"
 	(cd testartifactid; $C) 2> build-helper+compile.err > build-helper+compile.out && \
 		echo "- $C: **SUCCESS**" || echo "- $C: **FAIL**"
 }
